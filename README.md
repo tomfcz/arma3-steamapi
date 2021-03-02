@@ -2,7 +2,29 @@
 Retrieve multiple information about an Arma 3 server easily and quickly.
 
 ## How it works?
-**- Output format** : array
+* **Output format** : array
+```
+array
+├─── api
+│		some api informations
+│
+├─── infos
+│		server_ip
+│		server_port
+│		server_name
+│		server_map
+│		server_players
+│		server_max_players
+│		version
+│		server_password
+│		server_locked
+│
+├─── players
+│		player_name
+│		player_unit
+│		player_kills
+└──		player_time
+```
 
 ## How to use?
 
