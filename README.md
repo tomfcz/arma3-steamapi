@@ -46,6 +46,7 @@ curl_close($cURL);
 $result = json_decode($result, true);
 ```
 
+
 > JAVASCRIPT
 ```JS
 var server_ip = '';
