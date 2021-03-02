@@ -6,25 +6,28 @@ Retrieve multiple information about an Arma 3 server easily and quickly.
 ```
 array
 ├─── api
-│		some api informations
+|   author (string)
+|   url (string)
+│		version (string)
+|   response (bool) : false if error / true if correct response
 │
 ├─── infos
-│		server_ip
-│		server_port
-│		server_name
-│		server_map
-│		server_players
-│		server_max_players
-│		server_version
-│		server_password
-│		server_locked
+│		server_ip (string)
+│		server_port (string)
+│		server_name (string)
+│		server_map (string)
+│		server_players (int)
+│		server_max_players (int)
+│		server_version (string)
+│		server_password (bool) : false if no password / true if password
+│		server_locked (bool) : false if unlock / true if lock
 │
 ├─── players
-│		player_name
-│		player_name_format
-│		player_unit
-│		player_kills
-└──		player_time
+│		player_name (string)
+│		player_name_format (string)
+│		player_unit (string)
+│		player_kills (int)
+└──		player_time (int)
 ```
 
 ## How to use?
