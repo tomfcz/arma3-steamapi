@@ -14,8 +14,6 @@ $result = curl_exec($cURL);
 curl_close($cURL);
 
 $result = json_decode($result);
-
-print_r($result);
 ```
 
 > JAVASCRIPT
