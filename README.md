@@ -21,6 +21,7 @@ array
 │
 ├─── players
 │		player_name
+│		player_name_format
 │		player_unit
 │		player_kills
 └──		player_time
