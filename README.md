@@ -9,7 +9,7 @@ Retrieve multiple information about an Arma 3 server easily and quickly.
 │	author (string)
 │	url (string)
 │	version (string)
-│	response (bool) : false if error / true if correct response
+│	response (bool) : false = error / true = correct response
 │
 ├─── infos
 │	server_ip (string)
@@ -19,8 +19,8 @@ Retrieve multiple information about an Arma 3 server easily and quickly.
 │	server_players (int)
 │	server_max_players (int)
 │	server_version (string)
-│	server_password (bool) : false if no password / true if password
-│	server_locked (bool) : false if unlock / true if lock
+│	server_password (bool) : false = no password / true = password
+│	server_locked (bool) : false = unlock / true = lock
 │
 ├─── players
 │	player_name (string)
