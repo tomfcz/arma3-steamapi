@@ -15,7 +15,7 @@ array
 │		server_map
 │		server_players
 │		server_max_players
-│		version
+│		server_version
 │		server_password
 │		server_locked
 │
