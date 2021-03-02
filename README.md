@@ -2,6 +2,8 @@
 Retrieve multiple information about an Arma 3 server easily and quickly.
 
 ## How to use?
+
+> PHP
 ```PHP
 $server_ip = '';
 $server_port = '';
@@ -16,6 +18,7 @@ $result = json_decode($result);
 print_r($result);
 ```
 
+> JAVASCRIPT
 ```JS
 var server_ip = '';
 var server_port = '';
