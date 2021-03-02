@@ -6,10 +6,10 @@ Retrieve multiple information about an Arma 3 server easily and quickly.
 ```
 array
 ├─── api
-│   	author (string)
-│   	url (string)
+│		author (string)
+│		url (string)
 │		version (string)
-│   	response (bool) : false if error / true if correct response
+│		response (bool) : false if error / true if correct response
 │
 ├─── infos
 │		server_ip (string)
