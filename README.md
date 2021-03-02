@@ -4,7 +4,7 @@ Retrieve multiple information about an Arma 3 server easily and quickly.
 ## How it works?
 * **Output format** : array
 ```
-array
+(array)
 ├─── api
 │	author (string)
 │	url (string)
@@ -27,7 +27,7 @@ array
 │	player_name_format (string)
 │	player_unit (string)
 │	player_kills (int)
-│	player_time (int)
+└──	player_time (int)
 ```
 
 ## How to use?
