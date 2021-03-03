@@ -38,9 +38,10 @@ Retrieve multiple information about an Arma 3 server easily and quickly.
 ```PHP
 $server_ip = '';
 $server_port = '';
+$token = '';
 
 $cURL = curl_init();
-curl_setopt($cURL, CURLOPT_URL, "https://api.tomfcz.fr/request_aram3server_steam?ip=$server_ip&port=$server_port");
+curl_setopt($cURL, CURLOPT_URL, "https://api.tomfcz.fr/request_aram3server_steam?ip=$server_ip&port=$server_port&token=$token");
 curl_setopt($cURL, CURLOPT_RETURNTRANSFER, true);
 $result = curl_exec($cURL);
 curl_close($cURL);
@@ -53,9 +54,10 @@ $result = json_decode($result, true);
 ```JS
 var server_ip = '';
 var server_port = '';
+var token = '';
 
 var xmlHttp = new XMLHttpRequest();
-xmlHttp.open("GET", `https://api.tomfcz.fr/request_aram3server_steam?ip=${server_ip}&port=${server_port}`, false);
+xmlHttp.open("GET", `https://api.tomfcz.fr/request_aram3server_steam?ip=${server_ip}&port=${server_port}&token=${token}`, false);
 xmlHttp.send();
 
 var result = JSON.parse(xmlHttp.responseText);
