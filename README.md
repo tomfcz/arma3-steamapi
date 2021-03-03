@@ -2,6 +2,7 @@
 Retrieve multiple information about an Arma 3 server easily and quickly.
 
 ## How it works?
+* **Requirements** : you must have a token to use the api, to get one please contact me on discord in dm (tomfcz # 8626)
 * **Output format** : json array
 ```
 (array)
