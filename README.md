@@ -2,7 +2,7 @@
 Retrieve multiple information about an Arma 3 server easily and quickly.
 
 ## How it works?
-* **Requirements** : you must have a token to use the api, to get one please contact me on discord in dm (tomfcz#8626)
+* **Requirements** : you must have a token to use the api, you can use this one: 'tomfcz-steamapi-test' but a limit of 5 requests per minute is set. Otherwise you can get another one by contacting me on discord by private message (tomfcz#8626)
 * **Output format** : json array
 ```
 (array)
