@@ -10,9 +10,8 @@ Retrieve multiple information about an Arma 3 server easily and quickly.
 │	url (string)
 │	version (string)
 │	response (bool) : false = error / true = correct response
-│ message (string)
-├─── account (array)
-│───  some account informations same as email, token, etc...
+│	message (string)
+│	account (array) : some account informations
 │
 ├─── infos
 │	server_ip (string)
